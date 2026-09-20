@@ -33,14 +33,6 @@ export function Hero() {
     <header id="top" className="bg-ink pt-16 text-white">
       <div className={`${container} pt-24 pb-36 lg:pt-32 lg:pb-44`}>
         <div>
-          <div className="mb-8 inline-flex items-center gap-2.5 rounded-full bg-white/10 py-1.5 pl-3 pr-4 text-sm font-medium text-white/85">
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping-soft absolute inline-flex h-full w-full rounded-full bg-white" />
-              <span className="relative inline-flex h-2 w-2 rounded-full bg-white" />
-            </span>
-            Open to full-time roles &amp; freelance work
-          </div>
-
           <h1 className="text-5xl font-bold leading-[1.02] tracking-tight sm:text-6xl lg:text-[76px]">{profile.name}</h1>
 
           <div className="mt-5 text-2xl font-medium text-white/55 sm:text-3xl">
